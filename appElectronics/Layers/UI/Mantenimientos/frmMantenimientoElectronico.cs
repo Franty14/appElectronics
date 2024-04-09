@@ -20,7 +20,6 @@ using UTN.Winform.Electronics.Layers.Entities.DTO;
 namespace UTN.Winform.Electronics.Layers.UI.Mantenimientos
 {
 
-
     public partial class frmMantenimientoElectronico : Form
     {
         private static readonly ILog _MyLogControlEventos = log4net.LogManager.GetLogger("MyControlEventos");
@@ -74,8 +73,6 @@ namespace UTN.Winform.Electronics.Layers.UI.Mantenimientos
             IBLLElectronico _IBLLElectronico = new BLLElectronico();
             try
             {
-
-
                 if (this.pbImagen.Tag == null)
                 {
                     MessageBox.Show("La Imagen  es un dato requerido !", "Atención");
